@@ -1,0 +1,81 @@
+# Rust
+/target
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Build artifacts
+/release
+/debug
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.vs/
+.fleet/
+.helix/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Temporary files and directories
+temp/
+uploads/
+outputs/
+*.tmp
+*.temp
+.cache/
+
+# Video and media files (for testing)
+*.mp4
+*.mov
+*.webm
+*.mp3
+*.avi
+*.mkv
+*.flv
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Documentation builds
+/target/doc
+doc/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Test coverage
+*.profraw
+*.profdata
+coverage/
+tarpaulin-report.html
