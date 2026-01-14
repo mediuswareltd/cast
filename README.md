@@ -1,16 +1,16 @@
-# Video Converter API
+# FR Pro Video Converter API
 
 A lightweight, privacy-focused video converter service built in Rust. This API provides fast, efficient video format conversion with automatic file cleanup.
 
 ## Features
 
-- ✅ Multiple format conversions: MOV→MP4, WEBM→MP4, MP4→MOV, MP4→MP3
-- ✅ File size limits: 200MB for video, 100MB for audio
-- ✅ Automatic file cleanup (5-10 minutes)
-- ✅ Files deleted immediately after download
-- ✅ RESTful API with CORS support
-- ✅ Built with Rust for performance and reliability
-- ✅ Privacy-focused: no persistent storage
+- Multiple format conversions: MOV→MP4, WEBM→MP4, MP4→MOV, MP4→MP3
+- File size limits: 200MB for video, 100MB for audio
+- Automatic file cleanup (5-10 minutes)
+- Files deleted immediately after download
+- RESTful API with CORS support
+- Built with Rust for performance and reliability
+- Privacy-focused: no persistent storage
 
 ## Prerequisites
 
@@ -318,12 +318,12 @@ The API provides clear error messages for common issues:
 
 ## Security & Privacy
 
-- ✅ No database or persistent storage
-- ✅ Files automatically deleted
-- ✅ Sanitized filenames prevent path traversal
-- ✅ File size limits prevent abuse
-- ✅ CORS enabled for frontend integration
-- ✅ Validation of all inputs
+- No database or persistent storage
+- Files automatically deleted
+- Sanitized filenames prevent path traversal
+- File size limits prevent abuse
+- CORS enabled for frontend integration
+- Validation of all inputs
 
 ## Troubleshooting
 
@@ -368,18 +368,3 @@ cargo clippy
 cargo fmt
 ```
 
-## License
-
-This project is provided as-is for your video downloader website.
-
-## Support
-
-For issues or questions, please check:
-1. FFmpeg is installed: `ffmpeg -version`
-2. Server is running: `http://localhost:8080/api/health`
-3. File size is within limits
-4. Conversion is supported
-
----
-
-**Built with ❤️ in Rust**
