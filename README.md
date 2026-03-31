@@ -1,4 +1,4 @@
-# FR Pro Video Converter API
+# Cast Pro Video Converter API
 
 A lightweight, privacy-focused video converter service built in Rust. This API provides fast, efficient video format conversion with automatic file cleanup.
 
