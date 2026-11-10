@@ -1,5 +1,7 @@
 # Cast Pro Video Converter API
 
+[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-0f766e)](https://mediuswareltd.github.io/cast/)
+
 A lightweight, privacy-focused video converter service built in Rust. This API provides fast, efficient video format conversion with automatic file cleanup.
 
 ## Features
@@ -368,3 +370,14 @@ cargo clippy
 cargo fmt
 ```
 
+## Documentation
+
+Full docs site (VitePress): **https://mediuswareltd.github.io/cast/**
+
+Local preview:
+
+```bash
+cd docs
+npm install
+npm run docs:dev
+```
