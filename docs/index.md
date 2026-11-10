@@ -5,6 +5,9 @@ hero:
   name: "Cast"
   text: "Privacy-focused video conversion API in Rust"
   tagline: "A lightweight Rust service for fast video/audio format conversion with automatic file cleanup and no persistent storage."
+  image:
+    src: /hero.svg
+    alt: "Cast video conversion API"
   actions:
   - theme: brand
     text: Get started
